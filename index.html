@@ -1,0 +1,84 @@
+<!--DOCTYPE html-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Mx Vacation Car Insurance</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container-base">
+            <h1>Insure | Travel | Relax </h1>
+        </div>
+    </header>
+    <nav id="nav-main">
+        <div class="container-base">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main-card">
+        <section id="estimator">
+            <div class="container-base">
+                <h2>Estimator</h2>
+                <div class="container-form">
+                    <form>
+                        <div class="form-group">
+                            <label>From (mm/dd/yyyy)</label>
+                            <input class="dateSelector" type="text" size="8" maxlength="10" name="startDate">
+                        </div>
+                        <div class="form-group">
+                            <label>To (mm/dd/yyyy)</label>
+                            <input class="dateSelector" type="text" size="8" maxlength="10" name="endDate">
+                        </div>
+                        <div class="form-group">
+                            <select class="selector" name="vehicleType">
+                                <option value="0">-Choose vehicle type-</option>
+                                <option value="1">Sedan</option>
+                                <option value="2">Truck / SUV / Van</option>
+                                <option value="4">Motorcycle</option>
+                                <option value="5">RV</option>
+                                <option value="6">Bus</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Under 21?:</label>
+                            <input class="checkbox" type="checkbox" name="isUnder21" value="0">
+                        </div>
+                        <div class="form-group">
+                            <label>Bringing the yacht?:</label>
+                            <input class="checkbox" type="checkbox" name="tow" value="0" onclick="showTowSelector();">
+                        </div>
+                        <div class="form-group">
+                            <input id="button" class="button" type="button" value="Quote">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="intro">
+            <div class="container-base">
+                <h2>Driving to Mexico?</h2>
+                <p>
+                    <h4>Use the estimator to get an instant quote on your future trip.
+                    </h4>
+                </p>
+            </div>
+        </section>
+
+    </div>
+    <footer id="main-footer">
+        <div class="container-base">
+            <h6>Copyright &copy; 2019 MannySites. All rights reserved.</h6>
+        </div>
+    </footer>
+</body>
+
+</html>
