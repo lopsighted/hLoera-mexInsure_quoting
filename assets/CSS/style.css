@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("fontawesome-all.min.css");
-@import url("Font/ck-icons.woff2");
-@import url("Font/sailec-bold.woff2");
-@import url("Font/sailec-regular.woff2");
+
 body {
     background-color: #fff;
     color: #404245;
@@ -19,11 +15,11 @@ a {
     font-weight: 600;
 }
 
-a :hover {
+a:hover {
     color: darkslategray;
 }
 
-a :active {
+a:active {
     color: darkslategray;
 }
 
@@ -140,10 +136,11 @@ footer {
     background: rgb(255, 85, 62);
     color:white;
 }
-#button :hover{
+#button:hover{
     cursor: pointer;
     transition-property: all;
     transition-duration: 150ms;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
+    background: slategray
 }
