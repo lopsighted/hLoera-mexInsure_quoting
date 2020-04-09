@@ -2,10 +2,10 @@
   "name": "HumbertoLoera",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node exp_server",
-    "dev": "nodemon exp_server "
+    "start": "node exp",
+    "dev": "nodemon exp"
   },
   "keywords": [],
   "author": "",
